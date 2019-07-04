@@ -74,29 +74,3 @@ void stop()
   digitalWrite(9,LOW);
   digitalWrite(10,LOW);
 }
-int ledPin=9;
-void setup()
-{
-  pinMode(ledPin,OUTPUT);
-}
-void loop()
-{
-   digitalWrite(ledPin,HIGH);
-   delay(1000);
-    digitalWrite(ledPin,LOW);
-    delay(1000);
-    
-}
-int ledPin=5;
-void setup()
-{
-  pinMode(ledPin,OUTPUT);
-}
-void loop()
-{
-   digitalWrite(ledPin,HIGH);
-   delay(1000);
-    digitalWrite(ledPin,LOW);
-    delay(1000);
-    
-}
